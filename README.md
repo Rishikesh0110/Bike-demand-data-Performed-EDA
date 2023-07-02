@@ -60,11 +60,11 @@ DataFields
 5. Derived insights such as a trend that which season is better for business and which of the time business went on peak points by help of line diagrame.
 6. Some other insights Such as how many registered usres and temporary users are their and visualize them.
 7. Tried to derived correlation b/w some of columns to find relationships by using Heatmaps and regplots.
-   **Data wranggling**
+8.  **Data wranggling**
 1.  Removing np.nan values of missing values by replecing with specific mean or median of the column.
 2. That checked for duplicates by trying to find the shape of dataset again after applied drop_duplicates().
 3. Than handled outliers for each numerical columns the make the data more accurate and need to set the column to represent by their mean.
-   **Handling columns of Standrization of each numerical and categorical columns**
+4.  **Handling columns of Standrization of each numerical and categorical columns**
 1. Than handled categorical columns by One hot encoding pd.get_dummies() and numerical columns by minmax scaler and stadard scaler to standarize numerical columns.
 
     # Conclusion
